@@ -4,4 +4,4 @@
 
 layout: home
 ---
-[Wiki](wiki/Home.md)
+[Wiki](wiki)
