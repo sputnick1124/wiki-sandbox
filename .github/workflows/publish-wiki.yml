@@ -15,14 +15,15 @@ jobs:
           repository: '${{ github.repository }}.wiki'
           clean: false
           path: _site/wiki
-      - name: publish
-        uses: limjh16/jekyll-action-ts@v2
-        with:
-          jekyll_src: _site
       - name: setup ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6
+      - name: publish
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          cache: true
+          jekyll_src: _site
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
