@@ -18,7 +18,6 @@ jobs:
       - name: publish
         uses: limjh16/jekyll-action-ts@v2
         with:
-          enable_cache: true
           jekyll_src: _site
       - name: setup ruby
         uses: ruby/setup-ruby@v1
