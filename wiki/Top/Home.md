@@ -33,4 +33,4 @@ Bob --> Alice: Another authentication Response
 </details>
 ```
 
-New site loc
+[GH Pages](https://sputnick1124.github.io/wiki-sandbox/)
