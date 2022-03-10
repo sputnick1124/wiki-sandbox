@@ -22,7 +22,7 @@ jobs:
       - name: publish
         uses: limjh16/jekyll-action-ts@v2
         with:
-          cache: true
+          enable_cache: true
           jekyll_src: _site
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
