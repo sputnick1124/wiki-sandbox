@@ -29,7 +29,7 @@ Bob --> Alice: Another authentication Response
 ```md
 <details>
  <summary>Summary Goes Here</summary>
- ...this is hidden, collapsable content...
+ ...this is hidden, collapsible content...
 </details>
 ```
 
